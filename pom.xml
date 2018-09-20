@@ -13,6 +13,7 @@
         <relativePath/>
     </parent>
     
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -41,6 +42,23 @@
         </dependency>
     </dependencies>
     <build>
+    	<!-- 
+     		https://github.com/spring-io/spring-javaformat
+    	-->
+        <plugin>
+            <groupId>io.spring.javaformat</groupId>
+            <artifactId>spring-javaformat-maven-plugin</artifactId>
+            <version>0.0.6</version>
+            <executions>
+                <execution>
+                    <phase>validate</phase>
+                    <inherited>true</inherited>
+                    <goals>
+                        <goal>validate</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
