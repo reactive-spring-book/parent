@@ -19,8 +19,6 @@
         <spring-javaformat-maven-plugin.version>0.0.6</spring-javaformat-maven-plugin.version>
         <artifactory-maven-plugin.version>2.4.0</artifactory-maven-plugin.version>
         <spring-cloud.version>Greenwich.M1</spring-cloud.version>
-
-        <spring-data-releasetrain.version>Lovelace-RELEASE</spring-data-releasetrain.version>
     </properties>
     <dependencies>
         <dependency>
