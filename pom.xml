@@ -14,8 +14,12 @@
         <relativePath/>
     </parent>
     <properties>
-        <spring-cloud-contract-maven-plugin.version>2.0.1.RELEASE
+        <!--tag::scc-maven-plugin-version[]-->
+        <spring-cloud-contract-maven-plugin.version>
+            2.0.1.RELEASE
         </spring-cloud-contract-maven-plugin.version>
+        <!--end::scc-maven-plugin-version[]-->
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8
         </project.reporting.outputEncoding>
