@@ -10,37 +10,20 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <!--     <version>2.2.1.RELEASE</version>-->
         <version>2.2.5.RELEASE</version>
-
         <relativePath/>
     </parent>
     <properties>
-        <!--
-        2.2.0.RC2
-        -->
         <!-- tag::scc-maven-plugin-version[] -->
-        <spring-cloud-contract-maven-plugin.version>
-            2.2.2.RELEASE
+        <spring-cloud-contract-maven-plugin.version>2.2.2.RELEASE
         </spring-cloud-contract-maven-plugin.version>
         <!-- end::scc-maven-plugin-version[] -->
-
         <java.version>11</java.version>
-
         <spring-javaformat-maven-plugin.version>0.0.6
         </spring-javaformat-maven-plugin.version>
-
-
-<!--        <spring-cloud-contract.version>2.2.0.BUILD-SNAPSHOT-->
-<!--        </spring-cloud-contract.version>-->
-
         <artifactory-maven-plugin.version>2.4.0
         </artifactory-maven-plugin.version>
-        <!--
-            <spring-cloud.version>Hoxton.RC2</spring-cloud.version>
-        -->
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
-
     </properties>
     <dependencies>
         <dependency>
