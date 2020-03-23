@@ -10,12 +10,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.5.RELEASE</version>
+        <version>2.3.0.M3</version>
         <relativePath/>
     </parent>
     <properties>
         <!-- tag::scc-maven-plugin-version[] -->
-        <spring-cloud-contract-maven-plugin.version>2.2.2.RELEASE
+        <spring-cloud-contract-maven-plugin.version> 
+            2.2.2.RELEASE 
         </spring-cloud-contract-maven-plugin.version>
         <!-- end::scc-maven-plugin-version[] -->
         <java.version>11</java.version>
@@ -92,7 +93,7 @@
                                 </deployProperties>
                                 <publisher>
                                     <contextUrl>
-                                        https://cloudnativejava.artifactoryonline.com/cloudnativejava
+                                        https://cloudnativejava.jfrog.io/cloudnativejava
                                     </contextUrl>
                                     <username>${env.ARTIFACTORY_USERNAME}
                                     </username>
@@ -138,7 +139,7 @@
             <id>central</id>
             <name>libs-release</name>
             <url>
-                https://cloudnativejava.artifactoryonline.com/cloudnativejava/libs-release
+                https://cloudnativejava.jfrog.io/cloudnativejava/libs-release
             </url>
         </repository>
         <repository>
@@ -146,7 +147,7 @@
             <id>snapshots</id>
             <name>libs-snapshot</name>
             <url>
-                https://cloudnativejava.artifactoryonline.com/cloudnativejava/libs-snapshot
+                https://cloudnativejava.jfrog.io/cloudnativejava/libs-snapshot
             </url>
         </repository>
     </repositories>
@@ -158,7 +159,7 @@
             <id>central</id>
             <name>plugins-release</name>
             <url>
-                https://cloudnativejava.artifactoryonline.com/cloudnativejava/plugins-release
+                https://cloudnativejava.jfrog.io/cloudnativejava/plugins-release
             </url>
         </pluginRepository>
         <pluginRepository>
@@ -166,7 +167,7 @@
             <id>snapshots</id>
             <name>plugins-snapshot</name>
             <url>
-                https://cloudnativejava.artifactoryonline.com/cloudnativejava/plugins-snapshot
+                https://cloudnativejava.jfrog.io/cloudnativejava/plugins-snapshot
             </url>
         </pluginRepository>
     </pluginRepositories>
