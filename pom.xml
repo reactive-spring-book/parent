@@ -10,13 +10,15 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.0.M3</version>
-        <relativePath/>
+<!--         <version>2.3.0.M3</version> -->
+    <version>2.3.3.RELEASE</version>
+
+             <relativePath/>
     </parent>
     <properties>
         <!-- tag::scc-maven-plugin-version[] -->
         <spring-cloud-contract-maven-plugin.version> 
-            2.2.2.RELEASE 
+            2.2.4.RELEASE 
         </spring-cloud-contract-maven-plugin.version>
         <!-- end::scc-maven-plugin-version[] -->
         <java.version>11</java.version>
@@ -24,8 +26,10 @@
         </spring-javaformat-maven-plugin.version>
         <artifactory-maven-plugin.version>2.4.0
         </artifactory-maven-plugin.version>
-        <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
-    </properties>
+         
+         <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
+
+         </properties>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
